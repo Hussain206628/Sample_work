@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lumina – Learn Smarter. Grow Faster.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><nav aria-label="Main"><a class="logo" href="#home">Lumi<b>na</b></a>
+<input type="checkbox" id="menu" aria-label="Toggle menu"><label class="burger" for="menu">☰</label>
+<ul class="links">
+<li><a class="l" href="#home">Home</a></li>
+<li><a class="l" href="#categories">Explore Courses ▾</a><div class="dd"><a href="#categories">Categories</a><a href="#courses">Featured courses</a><a href="#dashboard">Student dashboard</a></div></li>
+<li><a class="l" href="#paths">Learning Paths</a></li><li><a class="l" href="#faq">Resources</a></li>
+<li><a class="l" href="#community">Community</a></li><li><a class="l" href="#why">About Us</a></li>
+<li><a class="btn s" href="#login">Login</a></li><li><a class="btn p" href="#login">Get Started</a></li></ul></nav></header>
+<main>
+<section class="hero" id="home">
+<div class="shape" style="width:180px;height:180px;background:var(--yellow);opacity:.45;top:8%;left:-60px"></div><div class="ring" style="right:6%;top:10%"></div>
+<div><h1>Learn Smarter. Grow Faster. Build Your Future.</h1>
+<p>Discover new skills, explore exciting learning paths, and turn your ambitions into real-world achievements through an entirely new learning experience.</p>
+<div class="cta"><a class="btn p" href="#login">Start Learning</a><a class="btn s" href="#courses">Explore Courses</a></div></div>
+<div class="art"><img class="photo" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=70" alt="Students studying together around a laptop">
+<div class="chip" style="top:0;left:0">📘 Python Basics<small>Lesson 7 of 10</small><div class="bar"><i style="width:70%"></i></div></div>
+<div class="chip" style="bottom:30px;left:-10px;animation-delay:-2s">🔥 12-day streak<small>+120 XP today</small></div>
+<div class="chip" style="top:45%;right:-10px;animation-delay:-4s">🏆 New badge<small>Quick Learner</small></div></div></section>
+
+<section class="stats" aria-label="Platform statistics">
+<div class="stat" style="background:var(--purple)"><b>10,000+</b>Active Learners</div><div class="stat" style="background:var(--coral)"><b>500+</b>Learning Resources</div>
+<div class="stat" style="background:var(--blue)"><b>100+</b>Courses</div><div class="stat" style="background:#2fb89f"><b>50+</b>Expert Mentors</div></section>
+
+<section id="categories"><h2>Find your next skill</h2><p class="sub">Pick a field and jump straight into its courses.</p>
+<div class="grid">
+<article class="card cat" style="--c:#7657FF"><div class="ico">💻</div><h3>Programming & Development</h3><p>Web, apps and software foundations.</p><p>24 courses</p><a href="#courses">Explore</a></article>
+<article class="card cat" style="--c:#3478F6"><div class="ico">🤖</div><h3>Artificial Intelligence</h3><p>Machine learning and neural networks.</p><p>18 courses</p><a href="#courses">Explore</a></article>
+<article class="card cat" style="--c:#55D6BE"><div class="ico">📊</div><h3>Data Science</h3><p>Analyse, visualise and predict.</p><p>15 courses</p><a href="#courses">Explore</a></article>
+<article class="card cat" style="--c:#FF6685"><div class="ico">🛡️</div><h3>Cybersecurity</h3><p>Protect systems and data.</p><p>9 courses</p><a href="#courses">Explore</a></article>
+<article class="card cat" style="--c:#3478F6"><div class="ico">☁️</div><h3>Cloud Computing</h3><p>Deploy and scale in the cloud.</p><p>11 courses</p><a href="#courses">Explore</a></article>
+<article class="card cat" style="--c:#7657FF"><div class="ico">🎨</div><h3>UI/UX Design</h3><p>Design products people love.</p><p>8 courses</p><a href="#courses">Explore</a></article>
+<article class="card cat" style="--c:#e0a800"><div class="ico">📈</div><h3>Business & Management</h3><p>Lead teams and grow ideas.</p><p>7 courses</p><a href="#courses">Explore</a></article>
+<article class="card cat" style="--c:#FF6685"><div class="ico">🎯</div><h3>Competitive Exam Prep</h3><p>Structured practice and mock tests.</p><p>10 courses</p><a href="#courses">Explore</a></article></div></section>
+
+<section id="courses"><h2>Featured courses</h2><p class="sub">Filter by topic, then open any card.</p>
+<div class="filters"><input type="radio" name="f" id="f-all" checked><label for="f-all">All</label><input type="radio" name="f" id="f-web" ><label for="f-web">Web</label><input type="radio" name="f" id="f-ai"><label for="f-ai">AI</label><input type="radio" name="f" id="f-data"><label for="f-data">Data</label></div>
+<div class="grid">
+<article class="card course web"><div class="im"><img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=70" alt="Laptop showing code" loading="lazy"></div><div class="in"><h3><a href="#login">Full Stack Web Basics</a></h3><div class="meta"><span class="lvl">Beginner</span><span>⏱ 12h</span><span>★ 4.8</span></div><p>Instructor: Ananya Rao</p><div class="bar"><i style="width:45%"></i></div><a class="btn p" href="#login">Enroll Now</a></div></article>
+<article class="card course ai"><div class="im"><img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&q=70" alt="Abstract AI illustration" loading="lazy"></div><div class="in"><h3><a href="#login">Machine Learning in Practice</a></h3><div class="meta"><span class="lvl">Intermediate</span><span>⏱ 20h</span><span>★ 4.9</span></div><p>Instructor: Dr. Karthik Rao</p><div class="bar"><i style="width:20%"></i></div><a class="btn p" href="#login">Enroll Now</a></div></article>
+<article class="card course data"><div class="im"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=70" alt="Analytics dashboard on screen" loading="lazy"></div><div class="in"><h3><a href="#login">Data Analysis with Python</a></h3><div class="meta"><span class="lvl">Beginner</span><span>⏱ 15h</span><span>★ 4.7</span></div><p>Instructor: Meera Nair</p><div class="bar"><i style="width:0"></i></div><a class="btn p" href="#login">Enroll Now</a></div></article>
+<article class="card course web"><div class="im"><img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=70" alt="Cybersecurity concept with padlock" loading="lazy"></div><div class="in"><h3><a href="#login">Secure Web Apps</a></h3><div class="meta"><span class="lvl">Advanced</span><span>⏱ 10h</span><span>★ 4.8</span></div><p>Instructor: Imran Sheikh</p><div class="bar"><i style="width:0"></i></div><a class="btn p" href="#login">Enroll Now</a></div></article></div></section>
+
+<section id="dashboard"><h2>Your learning, at a glance</h2><p class="sub">A preview of the student dashboard (demo data).</p>
+<div class="dash"><aside class="card me"><img src="https://i.pravatar.cc/180?img=12" alt="Student profile photo"><h3>Hi, Aarav 👋</h3><p>Level 7 · 2,480 XP</p><p><span class="badge">⭐</span><span class="badge">🔥</span><span class="badge" style="background:var(--mint)">🏅</span></p></aside>
+<div class="dgrid"><div class="card"><h3>Enrolled courses</h3><p>Python Basics</p><div class="bar"><i style="width:70%"></i></div><p>ML in Practice</p><div class="bar"><i style="width:30%"></i></div></div>
+<div class="card"><h3>Daily goal</h3><p>3 of 4 lessons done</p><div class="bar"><i style="width:75%"></i></div><p>38 lessons completed</p></div>
+<div class="card"><h3>This week</h3><div class="week"><i style="height:40%"></i><i style="height:70%"></i><i style="height:55%"></i><i style="height:90%"></i><i style="height:65%"></i><i style="height:30%"></i><i style="height:80%"></i></div></div>
+<div class="card"><h3>Upcoming</h3><ul><li>Today · Quiz: Loops</li><li>Thu · Mentor session</li><li>Sat · Study group</li></ul></div></div></div></section>
+
+<section id="paths"><h2>Learning paths</h2><p class="sub">Follow a roadmap from first lesson to job-ready.</p>
+<div class="tabs"><input type="radio" name="t" id="t1" checked><input type="radio" name="t" id="t2"><input type="radio" name="t" id="t3">
+<div class="tabbar"><label for="t1">Full Stack Developer</label><label for="t2">AI Engineer</label><label for="t3">UI/UX Designer</label></div>
+<div class="panel card" id="p1"><h3>Become a Full Stack Developer</h3><p>12 modules · ~6 months · Beginner</p><div class="road"><span class="on">HTML & CSS</span><span class="on">JavaScript</span><span>React</span><span>APIs & DB</span><span>Deploy</span></div><a class="btn p" href="#login">Start Learning</a></div>
+<div class="panel card" id="p2"><h3>Become an AI Engineer</h3><p>14 modules · ~8 months · Intermediate</p><div class="road"><span class="on">Python</span><span class="on">Maths for ML</span><span>Deep Learning</span><span>NLP & Vision</span><span>MLOps</span></div><a class="btn p" href="#login">Start Learning</a></div>
+<div class="panel card" id="p3"><h3>Become a UI/UX Designer</h3><p>9 modules · ~4 months · Beginner</p><div class="road"><span class="on">Design basics</span><span>Research</span><span>Wireframes</span><span>Prototypes</span><span>Portfolio</span></div><a class="btn p" href="#login">Start Learning</a></div></div></section>
+
+<section class="game" id="gamify"><h2>Make every day count</h2><p class="sub">Streaks, XP and challenges keep you coming back.</p>
+<div class="grid"><div class="card"><div class="streak">🔥 12</div><p>day streak</p><div class="bar"><i style="width:80%"></i></div><p>Weekly goal: 4 of 5 days</p></div>
+<div class="card"><h3>Daily challenge</h3><p>Solve 3 logic puzzles</p><div class="bar"><i style="width:66%"></i></div><p>+50 XP</p></div>
+<div class="card"><h3>Badges</h3><span class="badge">⭐</span><span class="badge" style="background:var(--coral)">🚀</span><span class="badge" style="background:var(--mint)">🧠</span></div>
+<div class="card"><h3>Leaderboard</h3><ol class="lb"><li><span>1. Priya</span><b>3,120</b></li><li><span>2. Aarav</span><b>2,480</b></li><li><span>3. Rohan</span><b>2,310</b></li></ol></div></div></section>
+
+<section id="community"><h2>Learn with others</h2><p class="sub">Ask, answer and study together.</p>
+<div class="grid"><div class="card chat"><img src="https://i.pravatar.cc/90?img=5" alt="Priya"><div><b>Priya</b> · Trending<p>How do I explain recursion simply?</p><small>18 replies</small></div></div>
+<div class="card chat"><img src="https://i.pravatar.cc/90?img=33" alt="Rohan"><div><b>Rohan</b> · Achievement<p>Finished my first ML project! 🎉</p><small>42 cheers</small></div></div>
+<div class="card chat"><img src="https://i.pravatar.cc/90?img=47" alt="Mentor Meera"><div><b>Mentor Meera</b> · Study group<p>Data Science group meets Saturday.</p><a href="#login" style="color:var(--purple);font-weight:700">Join group</a></div></div></div></section>
+
+<section class="why" id="why"><h2>Why students choose Lumina</h2><p class="sub">Everything is built to keep you moving forward.</p>
+<div class="grid"><div class="card">🧩<h3>Interactive lessons</h3></div><div class="card">🗺️<h3>Structured paths</h3></div><div class="card">🛠️<h3>Practical skills</h3></div><div class="card">🎓<h3>Student-first design</h3></div><div class="card">📈<h3>Progress tracking</h3></div><div class="card">👥<h3>Learning community</h3></div></div></section>
+
+<section id="reviews"><h2>Students say</h2><p class="sub">Swipe or scroll to read more.</p>
+<div class="car"><div class="card"><div class="stars">★★★★★</div><p>The paths made it clear what to learn next. I landed my first internship.</p><div class="who"><img src="https://i.pravatar.cc/96?img=15" alt="Sana"><div><b>Sana K.</b><br><small>Full Stack Developer path</small></div></div></div>
+<div class="card"><div class="stars">★★★★★</div><p>Daily streaks got me studying every day for three months.</p><div class="who"><img src="https://i.pravatar.cc/96?img=52" alt="Vikram"><div><b>Vikram P.</b><br><small>Data Analysis with Python</small></div></div></div>
+<div class="card"><div class="stars">★★★★☆</div><p>Mentor sessions unblocked me fast on my ML project.</p><div class="who"><img src="https://i.pravatar.cc/96?img=26" alt="Divya"><div><b>Divya R.</b><br><small>Machine Learning in Practice</small></div></div></div></div></section>
+
+<section id="faq"><h2>Resources & FAQ</h2><details><summary>Is Lumina free to start?</summary><p>This is a design demo, so no real accounts or payments exist yet.</p></details><details><summary>Can I learn on my phone?</summary><p>Yes, every layout adapts to phones and tablets.</p></details><details><summary>How do learning paths work?</summary><p>Each path is an ordered set of modules with a progress tracker.</p></details></section>
+
+<section id="login"><h2>Join Lumina</h2><p class="sub">Demo forms use native validation only. Nothing is sent or saved.</p>
+<div class="auth"><form class="card" action="#login" method="get"><h3>Login</h3><input type="email" name="e" placeholder="Email" required><input type="password" name="p" placeholder="Password" minlength="8" required><button class="btn p">Log in</button></form>
+<form class="card" action="#login" method="get"><h3>Create account</h3><input type="text" name="n" placeholder="Full name" required><input type="email" name="e" placeholder="Email" required><input type="password" name="p" placeholder="Password (8+ characters)" minlength="8" required><button class="btn p">Get Started</button></form></div></section>
+
+<section class="final"><h2>Your Future Starts With What You Learn Today.</h2><p>Take the first step toward your dream career. Explore new skills, build confidence, and become the best version of yourself.</p>
+<a class="btn s" href="#community">Join the Learning Community</a> <a class="btn s" href="#courses" style="background:transparent;color:#fff">Explore Courses</a>
+<div class="ring" style="top:-30px;left:5%"></div><div class="shape" style="width:140px;height:140px;background:var(--yellow);opacity:.35;bottom:-40px;right:8%"></div></section></main>
+
+<footer><div class="grid"><div><a class="logo" href="#home" style="color:#fff;font-size:1.5rem">Lumi<b>na</b></a><p>A playful place to build real skills, one lesson a day.</p></div>
+<div><h4>Explore</h4><a href="#categories">Categories</a><a href="#courses">Courses</a><a href="#paths">Paths</a></div>
+<div><h4>Resources</h4><a href="#faq">FAQ</a><a href="#community">Community</a><a href="#reviews">Reviews</a></div>
+<div><h4>Stay in the loop</h4><p>hello@lumina.example</p><form class="nl" action="#home" method="get"><input type="email" name="e" placeholder="Your email" required aria-label="Email for newsletter"><button class="btn p">Subscribe</button></form></div></div>
+<p class="copy">© 2026 Lumina. Demo project, no real data.</p></footer></body></html>
